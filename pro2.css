@@ -1,0 +1,48 @@
+p{
+    color: rgb(77, 230, 57);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    font-size: 50px;
+}
+body{
+  background-image: linear-gradient(to top right, green, rgb(90, 181, 217));
+  animation-name: x;
+  animation-iteration-count:infinite;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-timing-function: ease ;
+  transition: 0.5s;
+}
+@keyframes x{
+from{
+    background-image: linear-gradient(to top right, green, rgb(90, 181, 217));
+}
+to{
+    background-image: linear-gradient(to top left, green, rgb(90, 181, 217));
+}
+}
+div{
+    color:rgba(255, 255, 255, 0.918);
+    text-transform:lowercase ;
+}
+.x{
+    width: 600px;
+}
+.z{
+    color: black;
+}
+.a{
+    width: 600px;
+}
+::selection{
+    color: azure;
+    background-color: rgba(12, 56, 51, 0.701);
+}
+.o{
+    border-radius: 20px;
+}
+.p{
+    text-transform: uppercase;
+    color: rgb(77, 230, 57);
+}
